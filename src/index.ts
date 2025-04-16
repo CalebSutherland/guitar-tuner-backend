@@ -14,7 +14,3 @@ app.listen(PORT, () => {
 app.get('/api/ping', (_req, res) => {
   res.send({ message: 'pong from the backend' });
 });
-
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
